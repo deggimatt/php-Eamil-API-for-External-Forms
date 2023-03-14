@@ -1,1 +1,1 @@
-# php-Eamil-API-for-External-Forms
+# PHP Email API for External Forms with Redirect Function
