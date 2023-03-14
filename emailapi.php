@@ -47,4 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 // Return JSON response
 header('Content-Type: application/json');
 echo json_encode($response);
+
+//Delete All Email Logs from the server
+exec('rm /var/log/maillog');
 ?>
